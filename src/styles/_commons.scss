@@ -1,0 +1,55 @@
+@mixin showtimes {
+  .title {
+    font-size: 20px;
+  }
+
+  .showtimes {
+
+    ul {
+      margin-top: 1rem;
+
+      li {
+        & ~ * {
+          margin-top: 1rem;
+        }
+      }
+    }
+  }
+}
+
+@mixin image-thumbnail {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+  max-width: 300px;
+
+  @include media($tablet) {
+    float: left;
+    width: 200px;
+  }
+
+  @include media($tablet) {
+    margin-right: 1.5rem;
+  }
+}
+
+@mixin content-padding {
+  padding-left: 2rem;
+  padding-right: 2rem;
+
+  @include media($laptop) {
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+
+  @include media($laptop-l) {
+    padding-left: 15rem;
+    padding-right: 15rem;
+  }
+
+  @include media($k4) {
+    padding-left: 20rem;
+    padding-right: 20rem;
+  }
+}

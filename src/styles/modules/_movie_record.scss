@@ -1,0 +1,21 @@
+.movie-record {
+  position: relative;
+  clear: both;
+  height: 100%;
+
+  img.thumbnail {
+    @include image-thumbnail;
+  }
+
+  * ~ * {
+    margin-top: 2rem;
+  }
+
+  .info {
+    @include showtimes;
+  }
+
+  a {
+    display: inline-block;
+  }
+}

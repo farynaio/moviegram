@@ -1,0 +1,38 @@
+.movie-page {
+  @include content-padding;
+
+  .header {
+    img.featured-image {
+      @include image-thumbnail;
+      width: 100%;
+      height: auto;
+      max-width: initial;
+    }
+  }
+
+  .info {
+    @include showtimes;
+    margin-top: 2rem;
+
+    @include media($tablet) {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    > * {
+      & ~ * {
+        margin-top: 2rem;
+
+        @include media($tablet) {
+          margin-top: 0;
+        }
+      }
+    }
+    
+    p.description {
+      @include media($tablet) {
+        width: 70%;
+      }
+    }
+  }
+}
