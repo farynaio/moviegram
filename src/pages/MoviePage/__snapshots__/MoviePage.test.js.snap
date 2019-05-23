@@ -1,0 +1,522 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MoviePage should render properly when movie provided 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <MoviePage
+    getMovie={[Function]}
+    match={
+        Object {
+            "params": 1,
+          }
+    }
+    movie={
+        Object {
+            "description": "movie description",
+            "image_url": "http://image.com",
+            "showtimes": Array [
+              2019-05-23T10:17:39.090Z,
+              2019-05-23T10:17:39.090Z,
+            ],
+            "title": "movie title",
+          }
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "backLocation": "/",
+      "children": <div
+        className="movie-page page"
+>
+        <div
+                className="header clearfix"
+        >
+                <img
+                        alt="featured"
+                        className="featured-image"
+                        src="http://image.com"
+                />
+                <h1
+                        className="title"
+                >
+                        movie title
+                </h1>
+        </div>
+        <div
+                className="info"
+        >
+                <List
+                        className="showtimes"
+                        itemName="record"
+                        list={
+                                Array [
+                                        "23/05/2019 11:17:39 am",
+                                        "23/05/2019 11:17:39 am",
+                                      ]
+                        }
+                        title="Show times:"
+                />
+                <p
+                        className="description"
+                >
+                        movie description
+                </p>
+        </div>
+</div>,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="header clearfix"
+>
+            <img
+                        alt="featured"
+                        className="featured-image"
+                        src="http://image.com"
+            />
+            <h1
+                        className="title"
+            >
+                        movie title
+            </h1>
+</div>,
+          <div
+            className="info"
+>
+            <List
+                        className="showtimes"
+                        itemName="record"
+                        list={
+                                    Array [
+                                                "23/05/2019 11:17:39 am",
+                                                "23/05/2019 11:17:39 am",
+                                              ]
+                        }
+                        title="Show times:"
+            />
+            <p
+                        className="description"
+            >
+                        movie description
+            </p>
+</div>,
+        ],
+        "className": "movie-page page",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <img
+                alt="featured"
+                className="featured-image"
+                src="http://image.com"
+/>,
+              <h1
+                className="title"
+>
+                movie title
+</h1>,
+            ],
+            "className": "header clearfix",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "featured",
+                "className": "featured-image",
+                "src": "http://image.com",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "movie title",
+                "className": "title",
+              },
+              "ref": null,
+              "rendered": "movie title",
+              "type": "h1",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <List
+                className="showtimes"
+                itemName="record"
+                list={
+                                Array [
+                                                "23/05/2019 11:17:39 am",
+                                                "23/05/2019 11:17:39 am",
+                                              ]
+                }
+                title="Show times:"
+/>,
+              <p
+                className="description"
+>
+                movie description
+</p>,
+            ],
+            "className": "info",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "className": "showtimes",
+                "itemName": "record",
+                "list": Array [
+                  "23/05/2019 11:17:39 am",
+                  "23/05/2019 11:17:39 am",
+                ],
+                "title": "Show times:",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "movie description",
+                "className": "description",
+              },
+              "ref": null,
+              "rendered": "movie description",
+              "type": "p",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "backLocation": "/",
+        "children": <div
+          className="movie-page page"
+>
+          <div
+                    className="header clearfix"
+          >
+                    <img
+                              alt="featured"
+                              className="featured-image"
+                              src="http://image.com"
+                    />
+                    <h1
+                              className="title"
+                    >
+                              movie title
+                    </h1>
+          </div>
+          <div
+                    className="info"
+          >
+                    <List
+                              className="showtimes"
+                              itemName="record"
+                              list={
+                                        Array [
+                                                  "23/05/2019 11:17:39 am",
+                                                  "23/05/2019 11:17:39 am",
+                                                ]
+                              }
+                              title="Show times:"
+                    />
+                    <p
+                              className="description"
+                    >
+                              movie description
+                    </p>
+          </div>
+</div>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="header clearfix"
+>
+              <img
+                            alt="featured"
+                            className="featured-image"
+                            src="http://image.com"
+              />
+              <h1
+                            className="title"
+              >
+                            movie title
+              </h1>
+</div>,
+            <div
+              className="info"
+>
+              <List
+                            className="showtimes"
+                            itemName="record"
+                            list={
+                                          Array [
+                                                        "23/05/2019 11:17:39 am",
+                                                        "23/05/2019 11:17:39 am",
+                                                      ]
+                            }
+                            title="Show times:"
+              />
+              <p
+                            className="description"
+              >
+                            movie description
+              </p>
+</div>,
+          ],
+          "className": "movie-page page",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <img
+                  alt="featured"
+                  className="featured-image"
+                  src="http://image.com"
+/>,
+                <h1
+                  className="title"
+>
+                  movie title
+</h1>,
+              ],
+              "className": "header clearfix",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "featured",
+                  "className": "featured-image",
+                  "src": "http://image.com",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "movie title",
+                  "className": "title",
+                },
+                "ref": null,
+                "rendered": "movie title",
+                "type": "h1",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <List
+                  className="showtimes"
+                  itemName="record"
+                  list={
+                                    Array [
+                                                      "23/05/2019 11:17:39 am",
+                                                      "23/05/2019 11:17:39 am",
+                                                    ]
+                  }
+                  title="Show times:"
+/>,
+                <p
+                  className="description"
+>
+                  movie description
+</p>,
+              ],
+              "className": "info",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "className": "showtimes",
+                  "itemName": "record",
+                  "list": Array [
+                    "23/05/2019 11:17:39 am",
+                    "23/05/2019 11:17:39 am",
+                  ],
+                  "title": "Show times:",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "movie description",
+                  "className": "description",
+                },
+                "ref": null,
+                "rendered": "movie description",
+                "type": "p",
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;
+
+exports[`MoviePage should render properly when no movie provided 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <MoviePage
+    getMovie={[Function]}
+    match={
+        Object {
+            "params": 1,
+          }
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): null,
+  Symbol(enzyme.__nodes__): Array [
+    null,
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;

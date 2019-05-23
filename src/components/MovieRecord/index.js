@@ -1,4 +1,5 @@
 import React from "react"
+import propTypes from "prop-types"
 import { Link } from "react-router-dom"
 
 const MovieRecord = props => {
@@ -26,6 +27,13 @@ const MovieRecord = props => {
       </Link>
     </div>
   )
+}
+
+MovieRecord.propTypes = {
+  id: propTypes.string.isRequired,
+  title: propTypes.string.isRequired,
+  showtimes: propTypes.array.isRequired,
+  thumbnail_url: propTypes.string.isRequired
 }
 
 export default MovieRecord

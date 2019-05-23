@@ -1,7 +1,8 @@
 import React, { PureComponent } from "react"
+import propTypes from "prop-types"
 import { connect } from "react-redux"
 import { withRouter } from "react-router"
-import * as moment from "moment"
+import moment from "moment"
 
 import Layout from "../../components/Layout"
 import List from "../../components/List"
@@ -9,7 +10,12 @@ import { movieSelector } from "../../selectors"
 import { movieActions } from "../../actions/actions"
 import { SHOWTIME_FORMAT } from "../../env"
 
-class MoviePage extends PureComponent {
+export class MoviePage extends PureComponent {
+  static propTypes = {
+    match: propTypes.object.isRequired,
+    movie: propTypes.object
+  }
+
   componentDidMount() {
     this.props.getMovie(this.props.match.params.id)
   }

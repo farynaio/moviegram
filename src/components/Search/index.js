@@ -1,9 +1,17 @@
 import React, { PureComponent } from "react"
+import propTypes from "prop-types"
 import { connect } from "react-redux"
 
 import { moviesSelector } from "../../selectors"
 
-class Search extends PureComponent {
+export class Search extends PureComponent {
+  static propTypes = {
+    placeholder: propTypes.string.isRequired,
+    name: propTypes.string.isRequired,
+    treshold: propTypes.number,
+    phrase: propTypes.string
+  }
+
   static defaultProps = {
     placeholder: "Search",
     name: "search",

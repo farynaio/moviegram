@@ -1,0 +1,561 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MoviesListPage should render properly when loading 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <MoviesListPage
+    getMovies={[Function]}
+    isLoading={true}
+    movies={Array []}
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "backActive": false,
+      "children": <div
+        className="movies-list-page page"
+>
+        <Loader />
+</div>,
+      "searchHandler": [Function],
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <Loader />,
+        "className": "movies-list-page page",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      "type": "div",
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "backActive": false,
+        "children": <div
+          className="movies-list-page page"
+>
+          <Loader />
+</div>,
+        "searchHandler": [Function],
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <Loader />,
+          "className": "movies-list-page page",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": "div",
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;
+
+exports[`MoviesListPage should render properly when movies exists 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <MoviesListPage
+    getMovies={[Function]}
+    isLoading={false}
+    movies={
+        Array [
+            Object {
+              "description": "movie description",
+              "image_url": "http://image.com",
+              "showtimes": Array [
+                2019-05-23T10:17:39.133Z,
+                2019-05-23T10:17:39.133Z,
+              ],
+              "title": "movie title",
+            },
+            Object {
+              "description": "movie description",
+              "image_url": "http://image.com",
+              "showtimes": Array [
+                2019-05-23T10:17:39.133Z,
+                2019-05-23T10:17:39.133Z,
+              ],
+              "title": "movie title",
+            },
+          ]
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "backActive": false,
+      "children": <div
+        className="movies-list-page page"
+>
+        <List
+                Item={[Function]}
+                className="movies-list"
+                itemName="record"
+                list={
+                        Array [
+                                Object {
+                                  "description": "movie description",
+                                  "image_url": "http://image.com",
+                                  "showtimes": Array [
+                                    2019-05-23T10:17:39.133Z,
+                                    2019-05-23T10:17:39.133Z,
+                                  ],
+                                  "title": "movie title",
+                                },
+                                Object {
+                                  "description": "movie description",
+                                  "image_url": "http://image.com",
+                                  "showtimes": Array [
+                                    2019-05-23T10:17:39.133Z,
+                                    2019-05-23T10:17:39.133Z,
+                                  ],
+                                  "title": "movie title",
+                                },
+                              ]
+                }
+        />
+</div>,
+      "searchHandler": [Function],
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <List
+          Item={[Function]}
+          className="movies-list"
+          itemName="record"
+          list={
+                    Array [
+                              Object {
+                                "description": "movie description",
+                                "image_url": "http://image.com",
+                                "showtimes": Array [
+                                  2019-05-23T10:17:39.133Z,
+                                  2019-05-23T10:17:39.133Z,
+                                ],
+                                "title": "movie title",
+                              },
+                              Object {
+                                "description": "movie description",
+                                "image_url": "http://image.com",
+                                "showtimes": Array [
+                                  2019-05-23T10:17:39.133Z,
+                                  2019-05-23T10:17:39.133Z,
+                                ],
+                                "title": "movie title",
+                              },
+                            ]
+          }
+/>,
+        "className": "movies-list-page page",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "Item": [Function],
+          "className": "movies-list",
+          "itemName": "record",
+          "list": Array [
+            Object {
+              "description": "movie description",
+              "image_url": "http://image.com",
+              "showtimes": Array [
+                2019-05-23T10:17:39.133Z,
+                2019-05-23T10:17:39.133Z,
+              ],
+              "title": "movie title",
+            },
+            Object {
+              "description": "movie description",
+              "image_url": "http://image.com",
+              "showtimes": Array [
+                2019-05-23T10:17:39.133Z,
+                2019-05-23T10:17:39.133Z,
+              ],
+              "title": "movie title",
+            },
+          ],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      "type": "div",
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "backActive": false,
+        "children": <div
+          className="movies-list-page page"
+>
+          <List
+                    Item={[Function]}
+                    className="movies-list"
+                    itemName="record"
+                    list={
+                              Array [
+                                        Object {
+                                          "description": "movie description",
+                                          "image_url": "http://image.com",
+                                          "showtimes": Array [
+                                            2019-05-23T10:17:39.133Z,
+                                            2019-05-23T10:17:39.133Z,
+                                          ],
+                                          "title": "movie title",
+                                        },
+                                        Object {
+                                          "description": "movie description",
+                                          "image_url": "http://image.com",
+                                          "showtimes": Array [
+                                            2019-05-23T10:17:39.133Z,
+                                            2019-05-23T10:17:39.133Z,
+                                          ],
+                                          "title": "movie title",
+                                        },
+                                      ]
+                    }
+          />
+</div>,
+        "searchHandler": [Function],
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <List
+            Item={[Function]}
+            className="movies-list"
+            itemName="record"
+            list={
+                        Array [
+                                    Object {
+                                      "description": "movie description",
+                                      "image_url": "http://image.com",
+                                      "showtimes": Array [
+                                        2019-05-23T10:17:39.133Z,
+                                        2019-05-23T10:17:39.133Z,
+                                      ],
+                                      "title": "movie title",
+                                    },
+                                    Object {
+                                      "description": "movie description",
+                                      "image_url": "http://image.com",
+                                      "showtimes": Array [
+                                        2019-05-23T10:17:39.133Z,
+                                        2019-05-23T10:17:39.133Z,
+                                      ],
+                                      "title": "movie title",
+                                    },
+                                  ]
+            }
+/>,
+          "className": "movies-list-page page",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "Item": [Function],
+            "className": "movies-list",
+            "itemName": "record",
+            "list": Array [
+              Object {
+                "description": "movie description",
+                "image_url": "http://image.com",
+                "showtimes": Array [
+                  2019-05-23T10:17:39.133Z,
+                  2019-05-23T10:17:39.133Z,
+                ],
+                "title": "movie title",
+              },
+              Object {
+                "description": "movie description",
+                "image_url": "http://image.com",
+                "showtimes": Array [
+                  2019-05-23T10:17:39.133Z,
+                  2019-05-23T10:17:39.133Z,
+                ],
+                "title": "movie title",
+              },
+            ],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": "div",
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;
+
+exports[`MoviesListPage should render properly when no movies 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <MoviesListPage
+    getMovies={[Function]}
+    isLoading={false}
+    movies={Array []}
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "backActive": false,
+      "children": <div
+        className="movies-list-page page"
+>
+        <List
+                Item={[Function]}
+                className="movies-list"
+                itemName="record"
+                list={Array []}
+        />
+</div>,
+      "searchHandler": [Function],
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <List
+          Item={[Function]}
+          className="movies-list"
+          itemName="record"
+          list={Array []}
+/>,
+        "className": "movies-list-page page",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "Item": [Function],
+          "className": "movies-list",
+          "itemName": "record",
+          "list": Array [],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      "type": "div",
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "backActive": false,
+        "children": <div
+          className="movies-list-page page"
+>
+          <List
+                    Item={[Function]}
+                    className="movies-list"
+                    itemName="record"
+                    list={Array []}
+          />
+</div>,
+        "searchHandler": [Function],
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <List
+            Item={[Function]}
+            className="movies-list"
+            itemName="record"
+            list={Array []}
+/>,
+          "className": "movies-list-page page",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "Item": [Function],
+            "className": "movies-list",
+            "itemName": "record",
+            "list": Array [],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": "div",
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;

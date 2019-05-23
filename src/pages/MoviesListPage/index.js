@@ -1,4 +1,5 @@
 import React, { PureComponent } from "react"
+import propTypes from "prop-types"
 import { connect } from "react-redux"
 
 import List from "../../components/List"
@@ -9,7 +10,13 @@ import Loader from "../../components/Loader"
 import { movieActions } from "../../actions/actions"
 import { moviesSelector, movieLoadingSelector } from "../../selectors"
 
-class MoviesListPage extends PureComponent {
+export class MoviesListPage extends PureComponent {
+  static propTypes = {
+    isLoading: propTypes.bool.isRequired,
+    movies: propTypes.array.isRequired,
+    getMovies: propTypes.func.isRequired
+  }
+
   state = {
     searchResult: null
   }

@@ -3,7 +3,7 @@ import { Helmet } from "react-helmet"
 
 import { WEBSITE_NAME } from "../../env"
 
-const Application = ({ children, ...rest }) => (
+const Application = ({ children }) => (
   <div className="application">
     <Helmet>
       <meta charSet="utf-8" />
